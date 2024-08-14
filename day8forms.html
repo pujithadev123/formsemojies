@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Register for 10kcoders</legend>
+        <center>
+    <form action="./response.txt">
+        <div style="background-color:beige;">
+        <p>I am going to join in 10kcoders &#128682; and <span>learn</span> subject &#128218;and gonna become a good developer &#128187;.For that,firstly we should give &#9997; our details in this form.</p>
+    </div>
+        <br>
+        <div style="background-color:pink;">
+            <label for="img">Upload your image</label><br>
+            <input id="img" type="image" src="./Shradda.jpeg" height="100" width="100"/>
+        </div>
+        <br>
+        <div style="background-color:brown;">
+            <label for="fname">Enter your name:</label><br>
+            <input id="fname" type="text" pattern="[a-zA-Z0-9]{3,}" required/>
+            
+        </div>
+        <br>
+        <div style="background-color: chocolate;">
+            <label for="mail">Enter your Email:</label><br>
+            <input id="mail" type="mail" pattern="[a-z0-9+@a-z+\.a-z]{2,}" required/>
+            
+        </div>
+        <br>
+        <div style="background-color: darkblue;">
+            <label for="pswd">Enter your password:</label><br>
+            <input id="pswd" type="password" pattern="[a-zA-z@#$^&%_*0-9]{6,8}" required/>
+            
+        </div>
+        <br>
+        <div style="background-color: darkgreen;">
+            <label for="mbn">Enter your phonenumber:</label><br>
+            <input id="mbn" type="tel" pattern="[0-9]{10}" required/>
+            
+        </div>
+        <br>
+        <div style="background-color: darkmagenta;">
+            <p>Gender:</p>
+            <input id="f" type="radio" name="fe"/>
+            <label for="f">Female</label>
+            <input id="m" type="radio" name="fe"/>
+            <label for="m">Male</label>
+            <input id="oth" type="radio" name="fe"/>
+            <label for="oth">others</label>
+            
+        </div>
+        <br>
+        <div style="background-color: deeppink;">
+            <label for="skills">Which skills you learned till now?</label><br>
+            <select id="skills" style="width:170px;">
+                <option value="select from below">select from below</option>
+                <option value="C">C</option>
+                <option value="Python">Python</option>
+                <option value="Java">Java</option>
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JS">JS</option>
+            </select>
+            
+        </div>
+        <br>
+        <div style="background-color: goldenrod;">
+            <label for="college">Choose your college name</label><br>
+            <input list="clg" id="college"/>
+            <datalist id="clg" style="width:170px;">
+                <option value="NRIIT">NRIIT</option>
+                <option value="LBRC">LBRC</option>
+                <option value="Usharama">Usharama</option>
+                <option value="vahini">vahini</option>
+                <option value="Vasavi">Vasavi</option>
+                <option value="Sarada">Sarada</option>
+            </datalist>
+            
+        </div>
+        <br>
+        <div style="background-color: darkorchid;">
+            <label for="locality">Location</label><br>
+            <input list="add" id="locality"/>
+            <datalist id="add" style="width:170px;">
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Bengulore">Bengulore</option>
+                <option value="Coimbatore">Coimbatore</option>
+                <option value="Chennai">Chennai</option>
+            </datalist>
+            
+        </div>
+        <div style="background-color: indianred;">
+            <label for="time"></label><br>
+            <input list="timings" id="time"/>
+            <datalist id="timings" style="width:170px;">
+                <option value="8:30-10:00">8:30-10:00</option>
+                <option value="9:30-12:00">9:30-12:00</option>
+                <option value="2:30-5:00">2:30-5:00</option>
+                <option value="4:30-6:00">4:30-6:00</option>
+            </datalist>
+            
+        </div>
+        <br>
+        <div style="background-color: darkmagenta;">
+            <label for="files">Upload your resume and adharcard:</label>
+            <input type="file" multiple id="files"/>
+        </div>
+        <br>
+        <div style="background-color: indigo;">
+            <input type="checkbox" multiple id="credentials"/>
+            <label for="credentials">I agree to terms and conditions</label>
+        </div>
+        <br>
+        <div style="background-color: purple;">
+            <textarea rows="5" cols="25">
+If you have any doubts and confusion about this instituet,you will give feedback here...
+            </textarea>
+        </div>
+        <br>
+        <div style="background-color: moccasin;">
+            <input type="submit"/>
+        </div>
+        <br>
+        <div style="background-color: lightgrey;">
+            <input type="reset"/>
+        </div>
+    </form>
+</center>
+</fieldset>
+</body>
+</html>
